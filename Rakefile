@@ -2,13 +2,11 @@
 
 require "bundler/gem_tasks"
 require "rspec/core/rake_task"
+require 'yard'
 
-RSpec::Core::RakeTask.new(:spec) do |t|
-  t.libs << "spec"
-  t.libs << "lib"
-  t.test_files = FileList["spec/**/*_spec.rb"]
-  t.warning = false
-end
+RSpec::Core::RakeTask.new
+
+YARD::Rake::YardocTask.new
 
 begin
   require "rubocop/rake_task"

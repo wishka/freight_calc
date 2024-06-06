@@ -1,5 +1,5 @@
-[![Gem Version](https://badge.fury.io/rb/freezolite.svg)](https://rubygems.org/gems/freight_calc)
-[![Build](https://github.com/ruby-next/freezolite/workflows/Build/badge.svg)](https://github.com/wishka/freight_calc/actions)
+[![Gem Version](https://badge.fury.io/rb/freight_calc.svg)](https://rubygems.org/gems/freight_calc)
+[![Build](https://github.com/ruby-next/freight_calc/workflows/Build/badge.svg)](https://github.com/wishka/freight_calc/actions)
 
 rake spec_all мы запускаем все спеки.
 # FreightCalc
