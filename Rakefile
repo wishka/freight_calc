@@ -6,7 +6,7 @@ require "rspec/core/rake_task"
 RSpec::Core::RakeTask.new(:spec) do |t|
   t.libs << "spec"
   t.libs << "lib"
-  t.test_files = FileList["test/**/*_test.rb"]
+  t.test_files = FileList["spec/**/*_spec.rb"]
   t.warning = false
 end
 
