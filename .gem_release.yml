@@ -1,0 +1,3 @@
+bump:
+  file: lib/freight_calc/version.rb
+  skip_ci: true
